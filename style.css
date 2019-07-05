@@ -1,0 +1,40 @@
+html {
+    background-color: #fafafa;
+}
+
+.container-fluid {
+    background-color: #fafafa;
+}
+.header {
+    font-family: 'Permanent Marker', cursive;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 4rem;
+    color: #07689f;
+}
+
+.sub-header {
+    font-family: 'Leckerli One', cursive;
+    text-align: center;
+    font-size: 3rem;
+    color: #a2d5f2;
+}
+
+
+.form-group{
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form {
+    margin-top: 80px;
+}
+
+.btn {
+    margin-top: 50px;
+}
+
+.col-sm-12 {
+    font-size: 5rem;
+}
+
