@@ -24,6 +24,9 @@ html {
 .form-group{
     font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .form {
@@ -32,9 +35,30 @@ html {
 
 .btn {
     margin-top: 50px;
+    margin-bottom: 100px;
 }
+
 
 .col-sm-12 {
     font-size: 5rem;
+}
+
+.col-lg-6 {
+    border: 2px solid red;
+}
+
+#result-boxes {
+    border: 2px solid green;
+    display: inline-block;
+    margin-left: 70px;
+    margin-bottom: 60px;
+    padding: 30px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
+    color: #737373;
+}
+
+#result-boxes p {
+    font-weight: bold;
 }
 
