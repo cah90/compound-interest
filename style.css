@@ -45,11 +45,7 @@ html {
     font-size: 5rem;
 }
 
-.col-lg-6 {
-    border: 2px solid red;
-}
-
-#result-boxes {
+.result-boxes {
     display: inline-block;
     margin-left: 70px;
     margin-bottom: 60px;
@@ -59,9 +55,16 @@ html {
     color: #737373;
     box-shadow: inset 0 0  10px #737373;
     background: #ffffff;
+    text-align: center;
 }
 
-#result-boxes p {
+.result-boxes p {
     font-weight: bold;
 }
+
+.hidden {
+    visibility: hidden;
+}
+
+
 

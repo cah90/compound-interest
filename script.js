@@ -16,8 +16,7 @@ function calculateProfit( initialInvestment, monthlyInvestment, monthsNumber, pr
 
 
 $( document ).ready( function () {
-    $( ".btn" ).on( "click", function () {
-        $( ".header" ).css( "color", "red" );
+    
 
         var initialInvestment, monthlyInvestment, monthsNumber;
 
@@ -35,10 +34,10 @@ $( document ).ready( function () {
 
     } );
 
-    $(".btn").
+    $(".btn").on("click", function(){
+        $("#result-boxes").addClass(".hidden");
+        });
 
     
 
 
-
-} );
