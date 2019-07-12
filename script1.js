@@ -1,3 +1,10 @@
+function formatMoney(sum) {
+    
+   return sum.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, '$&,');
+
+}
+
+
 $( document ).ready( function () {
 
     $( ".btn" ).on( "click", function () {
@@ -57,14 +64,9 @@ $( document ).ready( function () {
         // console.log( calculation );
 
         $(".result-boxes").removeClass("hidden");
-        $("#total-invested p").html("$ " + calculation.totalInvested.toFixed(2));
-        $("#total-interest p").html("$ " + calculation.profit.toFixed(2));
-        $("#total-accumulated p").html("$ " + calculation.accumulatedValue.toFixed(2));
-
-
-
-
-
+        $("#total-invested p").html("$ " + formatMoney(calculation.totalInvested));
+        $("#total-interest p").html("$ " + formatMoney(calculation.profit));
+        $("#total-accumulated p").html("$ " + formatMoney(calculation.accumulatedValue));
 
     } );
 
